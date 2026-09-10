@@ -357,3 +357,23 @@ body{
     font-size: 18px;
     font-weight: 600;
 }
+
+/* HERO SECTION TWO  */
+
+#featured-newsletter{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "McKinsey Sans",
+            "Helvetica Neue",
+            Calibri,
+            Corbel,
+            Helvetica,
+            Roboto,
+            Droid,
+            sans-serif;
+    color: white;
+
+    margin-top: 70px;
+
+}
