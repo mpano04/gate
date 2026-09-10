@@ -2,3 +2,75 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #061C2C;
+}
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px 30px 50px;
+
+    color: white;
+    padding: 20px 40px;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "McKinsey Sans",
+        "Helvetica Neue",
+        Calibri,
+        Corbel,
+        Helvetica,
+        Roboto,
+        Droid,
+        sans-serif;
+    
+}
+.nav-links a:hover{
+    color: #035E89;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+.sign-in-sub-btn{
+    display: flex;
+    gap: 10px;   
+}
+.sign-in-sub-btn-one:hover,.sign-in-sub-btn-two:hover{
+    text-decoration: underline;
+}
+
+
+.sign-in-sub-btn button{
+    font-size: 20px;
+    background-color: #061C2C;
+    color: white;
+    font-family: "McKinsey Sans",
+            "Helvetica Neue",
+            Calibri,
+            Corbel,
+            Helvetica,
+            Roboto,
+            Droid,
+            sans-serif;
+    
+    border: none;
+    cursor: pointer;
+}
+.header-right-content{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.search, .menu-icon{
+    cursor: pointer;
+}
