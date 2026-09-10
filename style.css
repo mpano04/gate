@@ -76,3 +76,60 @@ body{
 }
 
 
+.heading-text{
+    height: 300px;
+    width: 400px;
+}
+
+.case-study {
+    height: 900px;
+    width: 600px;
+
+    background-image: url("../images/case-study.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.article {
+    height: 500px;
+    width: 350px;
+    background-image: url("../images/article.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.survey {
+    height: 405px;
+    width: 450px;
+    background-image: url("../images/survey.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.podcast {
+    height: 350px;
+    width: 350px;
+
+    background-image: url("../images/podcast.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.upcoming-webiner {
+    height: 500px;
+    width: 400px;
+
+    background-image: url("../images/upcoming-webinar.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.subscribes{
+    height: 350px;
+    width: 500px;
+}
+
+.hero-section-one{
+   display: flex;
+   gap: 20px;
+}
